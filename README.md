@@ -1,13 +1,9 @@
 [![Autorun](assets/logo.png)](https://github.com/Vurv78/Autorun-rs)
 # [![Release Shield](https://img.shields.io/github/v/release/Vurv78/Autorun-rs)](https://github.com/Vurv78/Autorun-rs/releases/latest) [![License](https://img.shields.io/github/license/Vurv78/Autorun-rs?color=red)](https://opensource.org/licenses/Apache-2.0) [![CI](https://github.com/Vurv78/Autorun-rs/workflows/Download/badge.svg)](https://github.com/Vurv78/Autorun-rs/actions/workflows/downloads.yml) [![github/Vurv78](https://img.shields.io/discord/824727565948157963?label=Discord&logo=discord&logoColor=ffffff&labelColor=7289DA&color=2c2f33)](https://discord.gg/yXKMt2XUXm)
 
-# ⚠️ Warning
+# ⚠️ Deprecated
 
-**If you are on 1.2.0 upgrade to [`1.2.5`](https://github.com/Vurv78/Autorun-rs/releases/tag/v1.2.5) ASAP**
-
-Some sore losers have been exploiting an issue that was fixed in 1.2.4 and the fix is now in 1.2.5
-
-It would allow people to create lua files in locations outside of the Autorun directory, potentially filling your drive with garbage data.
+There is a new version of Autorun on the horizon - see https://github.com/thevurv/Autorun-ng
 
 ## Features
 * Dumping all lua scripts to ``C:\Users\<User>\autorun\lua_dumps\<ServerIP>\..`` (asynchronously to avoid i/o lag)
