@@ -3,13 +3,13 @@
 There is a new version of Autorun on the horizon - see https://github.com/thevurv/Autorun-ng  
 Consider switching over for a less detectable, safer experience (and yes, there's Linux support).
 
-[![Autorun](assets/logo.png)](https://github.com/Vurv78/Autorun-rs)
-# [![Release Shield](https://img.shields.io/github/v/release/Vurv78/Autorun-rs)](https://github.com/Vurv78/Autorun-rs/releases/latest) [![License](https://img.shields.io/github/license/Vurv78/Autorun-rs?color=red)](https://opensource.org/licenses/Apache-2.0) [![CI](https://github.com/Vurv78/Autorun-rs/workflows/Download/badge.svg)](https://github.com/Vurv78/Autorun-rs/actions/workflows/downloads.yml) [![github/Vurv78](https://img.shields.io/discord/824727565948157963?label=Discord&logo=discord&logoColor=ffffff&labelColor=7289DA&color=2c2f33)](https://discord.gg/yXKMt2XUXm)
+[![Autorun](assets/logo.png)](https://github.com/vurvdev/Autorun-rs)
+# [![Release Shield](https://img.shields.io/github/v/release/vurvdev/Autorun-rs)](https://github.com/vurvdev/Autorun-rs/releases/latest) [![License](https://img.shields.io/github/license/vurvdev/Autorun-rs?color=red)](https://opensource.org/licenses/Apache-2.0) [![CI](https://github.com/vurvdev/Autorun-rs/workflows/Download/badge.svg)](https://github.com/vurvdev/Autorun-rs/actions/workflows/downloads.yml) [![github/vurvdev](https://img.shields.io/discord/824727565948157963?label=Discord&logo=discord&logoColor=ffffff&labelColor=7289DA&color=2c2f33)](https://discord.gg/yXKMt2XUXm)
 
 ## Features
 * Dumping all lua scripts to ``C:\Users\<User>\autorun\lua_dumps\<ServerIP>\..`` (asynchronously to avoid i/o lag)
 * Runtime lua loading through ``lua_run`` and ``lua_openscript`` in an external console
-* Supports both 32* and 64 bit branches (*See [#22](https://github.com/Vurv78/Autorun-rs/issues/22))
+* Supports both 32* and 64 bit branches (*See [#22](https://github.com/vurvdev/Autorun-rs/issues/22))
 * Running a script before autorun (``autorun.lua``), to detour and bypass any 'anticheats'
 * Scripthook, stop & run scripts before anything runs on you, gives information & functions to assist in a safe separate lua environment
 * File logging (to ``autorun/logs``)
@@ -35,7 +35,7 @@ Autorun features scripthook, which means we'll run your script before any other 
 Also note that if you are running in ``autorun.lua`` Functions like ``http.Fetch`` & ``file.Write`` won't exist.  
 Use their C counterparts (``HTTP`` and ``file.Open``)
 
-__See an example project using the scripthook [here](https://github.com/Vurv78/Safety).__
+__See an example project using the scripthook [here](https://github.com/vurvdev/Safety).__
 
 ### 📁 File Structure
 ```golo
@@ -80,9 +80,9 @@ You can find more [here](examples)
 
 ## ⬇️ Downloading
 ### 🦺 Stable
-You can get a 'stable' release from [the releases](https://github.com/Vurv78/Autorun-rs/releases/latest).
+You can get a 'stable' release from [the releases](https://github.com/vurvdev/Autorun-rs/releases/latest).
 ### 🩸 Bleeding Edge
-You can get the absolute latest download (from code in the repo) in [the Github Actions tab](https://github.com/Vurv78/Autorun-rs/actions/workflows/downloads.yml)  
+You can get the absolute latest download (from code in the repo) in [the Github Actions tab](https://github.com/vurvdev/Autorun-rs/actions/workflows/downloads.yml)  
 Note it may not work as expected (but I'd advise to try this out before trying to report an issue to see if it has been fixed)
 
 __If you are using this as a menu plugin 🧩, make sure the DLL is named ``gmsv_autorun_win<arch>.dll``__
